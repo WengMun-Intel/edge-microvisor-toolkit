@@ -18,7 +18,13 @@
             "logrotate",
             "dracut-vrf",
             "initramfs",
-            "shadow-utils"
+            "shadow-utils",
+            "linux-firmware-i915",
+            "kernel-drivers-gpu",
+            "pciutils",
+            "igt-gpu-tools",
+            "gawk",
+            "bc"
             ],
             "PackageLists": [
                 "packagelists/minimal-os-packages.json"
