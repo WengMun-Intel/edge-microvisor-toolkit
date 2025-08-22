@@ -146,6 +146,8 @@ SOURCE_URL         ?= https://files-rs.edgeorchestration.intel.com/files-edge-or
 PACKAGE_URL_LIST   ?= http://rpm-emt.intel.com/pulp/content/emt-3.0-prod-base
 PACKAGE_URL_LIST   += http://rpm-emt.intel.com/pulp/content/emt-3.0-prod-debuginfo
 
+PACKAGE_REPO_LIST  ?= $(PACKAGE_URL_LIST)
+
 REPO_LIST          ?=
 SRPM_URL_LIST      ?= http://rpm-emt.intel.com/pulp/content/emt-3.0-prod-srpms
 
